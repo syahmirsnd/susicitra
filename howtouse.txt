@@ -1,0 +1,3 @@
+0. Pastiin udah install Flask (pip install Flask)
+1. Buka terminal VSCODE, jalanin "python rambutan.py" trus run aja commandnya, kalau mau nutup CTRL+C
+2. Buka browser, http://127.0.0.1:5000/
