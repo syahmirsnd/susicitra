@@ -1,0 +1,94 @@
+.horizontal-slide-from-right-to-left {
+  animation: horizontal-slide-from-right-to-left linear 10s infinite;
+}
+
+@keyframes horizontal-slide-from-right-to-left {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.horizontal-slide-from-left-to-right {
+  animation: horizontal-slide-from-left-to-right linear 10s infinite;
+}
+
+@keyframes horizontal-slide-from-left-to-right {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(50%);
+  }
+}
+
+.animation-duration-2s {
+  animation-duration: 2s;
+}
+.animation-duration-5s {
+  animation-duration: 5s;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+.rotate-full {
+  animation: rotate-full 10s linear infinite;
+}
+@keyframes rotate-full {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scrolling {
+  animation: fadeInDown 0.9s 1;
+  backdrop-filter: blur(4px);
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.swiper-scrollbar-drag {
+  cursor: pointer;
+  width: 85px !important;
+  height: 50px;
+  top: -24px;
+  left: -2px;
+  position: absolute;
+  background-size: cover;
+  background-color: transparent;
+  background-image: url(../img/icons/icon-white-slider-drug-arrow.svg);
+}
+
+.testimonial-custom-pagination .swiper-pagination-bullet {
+  width: 50px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: #a58a6a;
+}
+
+.testimonial-custom-pagination .swiper-pagination-bullet-active {
+  background-color: #221f1a;
+}
+
+.offcanvas-body {
+  transition: transform 0.3s ease;
+}
